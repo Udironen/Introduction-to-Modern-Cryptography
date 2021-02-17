@@ -1,3 +1,2 @@
-There is a simple p algorithm that given an n-bit integer N, nds the prime factors of N in time
-N  poly(n). In this exercise you will implement an algorithm for computing discrete log with the
-same complexity.
+this code computes discrete log mod N, when N is an n-bit integer, by finding the prime factors of N in time
+sqrt(N)*poly(n). 
