@@ -152,7 +152,7 @@ main("Udi", 'vk1', 'Udi.sig')
 gen_sig("Ronen")
 main("Ronen", 'vk1', 'Ronen.sig')
 
-file = open("313452542.sig", "wb")
+file = open("123456789.sig", "wb")
 file.write(vk_new)
 for b, keys in zip(bits(SHA(vk_new)), sk2):
     file.write(bytes(keys[b]))
@@ -160,6 +160,6 @@ for i in range(255):
     file.write(vk_new)
     file.write(sk_new)
 file.close()
-msg = "313452542"
-main(msg, 'vk2', '313452542.sig')
+msg = "123456789"
+main(msg, 'vk2', '123456789.sig')
 
