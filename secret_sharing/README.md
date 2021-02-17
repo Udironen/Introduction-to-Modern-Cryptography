@@ -5,3 +5,5 @@ the encoded image that results from placing ~A and ~B on top of each other when 
 transparent. That is, each pixel in ~C is white if and only if the pixels of ~A and ~B in the same location
 are both white. Each encoded image should resemble the original image, but contain no information
 about the two other images.
+
+full details in HW9
