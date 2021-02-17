@@ -9,7 +9,7 @@ but not secure.
 
 2. Given a verification key (in the file vk2 ) and 5 signatures: for x = a; b; c; d; e; the
 signature on the message x is given in the file x.sig. The signatures are correct but not secure.
-Your goal is find the security flaw and use it to sign my 9-digit ID. Your signature must
+Your goal is find the security flaw and use it to sign  9-digit number. The signature must
 verify under vk2.
 
 full details in HW7
